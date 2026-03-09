@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# 🏗️ Campus Connect 
 
-## Project info
+**A modern social platform designed to enhance campus life at Istanbul University.** 
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+  
 
-## How can I edit this code?
+Campus Connect is a full-stack web application developed to streamline communication between students, organize campus events, and foster a digital community for the university. 
 
-There are several ways of editing your application.
+  
 
-**Use Lovable**
+--- 
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🚀 Overview 
 
-**Use your preferred IDE**
+The goal of this project was to create a centralized hub for university students to stay updated and connected. As a first-year Computer Engineering student, I focused on leveraging modern AI-assisted development tools to build a functional, high-quality product from scratch. 
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🛠️ Tech Stack & Tools 
 
-Follow these steps:
+This project utilizes a modern architecture focused on speed and scalability: 
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **Frontend:** React.js with **TypeScript** for type safety. 
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **Styling:** **Tailwind CSS** & **shadcn/ui** for a clean, professional user interface. 
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+* **Backend & Database:** **Supabase** (PostgreSQL) for real-time data, authentication, and database management. 
 
-**Edit a file directly in GitHub**
+* **Development Philosophy:** Built using **Lovable** (AI Engineer) for rapid prototyping, combined with manual iterations to ensure logical consistency and a smooth user experience. 
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+  
 
-**Use GitHub Codespaces**
+--- 
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ 
 
-## What technologies are used for this project?
+🗄️ Database Architecture (Supabase) 
 
-This project is built with:
+The project is powered by a relational database consisting of 8 structured tables, managing complex data relations: 
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+User Management: profiles, users (Handled via Supabase Auth). 
 
-## How can I deploy this project?
+Content & Social: posts, comments, likes (Ensuring active engagement). 
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Campus Life: events, announcements (Keeping the community updated). 
 
-## Can I connect a custom domain to my Lovable project?
+System: categories (For organizing content effectively). 
 
-Yes, you can!
+--- 
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+  
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### ✨ Key Features 
+
+* **User Authentication:** Secure login and profile management via Supabase. 
+
+* **Responsive Design:** Fully optimized for mobile and desktop views. 
+
+* **Dynamic Campus Feed:** Real-time updates and interaction for students. 
+
+* **Efficient UI:** Built with modular components for a fast and fluid experience. 
+
+ 
+
+--- 
+
+ 
+
+📈 Learning Journey 
+
+By developing Campus Connect, I have gained hands-on experience in: 
+
+Prompt Engineering: Guiding AI to generate complex software architectures. 
+
+Database Design: Structuring tables and managing relations in Supabase. 
+
+Modern Web Workflow: Understanding the lifecycle of a web app from idea to deployment. 
+
+ 
+
+--- 
+
+ 
+
+💻 Local Development 
+
+To run this project locally, follow these steps:  
+
+1. Clone the repository: ```bash git clone https://github.com/Arc58/campus-connect-main.git 
+
+2. Install dependencies: ```bash npm install 
+
+3. **Start the development server:** ```bash npm run dev 
+ 
